@@ -33,12 +33,12 @@ const Novedades = (props) => {
             </section>
             <aside>
                 <figure>
-                    <blockquote class="blockquote">
+                    <blockquote className="blockquote">
                         <p>Quizás viajar no sea suficiente para prevenir la intolerancia, pero si logra demostrarnos que
                             todas las personas lloran, ríen, comen, se preocupan y mueren, puede entonces introducir la idea
                             de que si tratamos de entendernos los unos a los otros, quizás hasta nos hagamos amigos.</p>
                     </blockquote>
-                    <figcaption class="blockquote-footer text-end">
+                    <figcaption className="blockquote-footer text-end">
                         <cite title="Source Title">Maya Angelou</cite>
                     </figcaption>
                 </figure>
