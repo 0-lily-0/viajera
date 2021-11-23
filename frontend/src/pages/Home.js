@@ -18,10 +18,10 @@ const Home = (props) => {
             </section>
             <aside>
             <figure>
-            <blockquote class="blockquote"> 
+            <blockquote className="blockquote"> 
                 <p>El mundo es un libro, y quienes no viajan leen sólo una página.</p>
             </blockquote>
-                 <figcaption class="blockquote-footer text-end">  
+                 <figcaption className="blockquote-footer text-end">  
                       <cite title="Source Title">San Agustín</cite>  
                    </figcaption>
             </figure>
