@@ -33,7 +33,7 @@ router.get('/novedades', async function(req, res, next) {
     const mail = {
       to: 'lilyarce.mestorino@gmail.com',
       subject: 'Contacto web Viajera',
-      html: '${req.body.nombre} ${req.body.apellido} se contactó a través de la web y quiere más información a este correo: ${req.body.email} <br> Además, hizo el siguiente comentario: ${req.body.comentario}'
+      html: `${req.body.nombre} ${req.body.apellido} se contactó a través de la web y quiere más información a este correo: ${req.body.email} <br> Además, hizo el siguiente comentario: ${req.body.comentario}`
     }
 
     const transport = nodemailer.createTransport({
@@ -51,4 +51,6 @@ router.get('/novedades', async function(req, res, next) {
     error: false,
     message: 'Mensaje enviado'
   });
+});
+
   module.exports = router;
